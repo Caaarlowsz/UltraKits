@@ -1,0 +1,1031 @@
+#UltraKits - Criado por: CleanlyGold e zDubsCrazy - Copyright 2014-X 
+#Configurações gerais
+BarKit: '&3Voce selecionou o kit:&5 @kit'
+BarKitTime: 5
+WelcomeBar: '&6&lBem-Vindo &4&lPLAYER &6&lao &b&lUltraKits'
+MensagemSemKit: '&cVoce nao tem permissao para usar esse kit!'
+MensagemTpAll: '&5Todos os jogadores foram teleportados para este local!'
+PvPLigado: '&bPvP ativado!'
+PvPDesligado: '&cPvP desativado!'
+Silenciado: '&cVoce esta silenciado!'
+WarpSlots: 9
+CombatLog: false
+SoupSound: true
+SoupRegen: 4
+SoupFeed: 4
+ServerName: UltraKits
+ComandoBuycraft: buy
+ServerSite: ultrakits.com.br
+#Gui de Sopas e Espada 
+TipoDeEspada: 276
+EspadaGUISlots: 9
+SopaGUISlots: 54
+#Scoreboards	
+EnableScoreboard: true
+EnableScoreboard2: true
+Scoreboard:
+  title: '&f&lPLAYER'
+  kills: '&aMatou'
+  deaths: '&4Morreu'
+  kdr: '&bKDR'
+  killstreak: '&eKillStreak'
+Scoreboard1v1:
+  title: '&6Ultra 1v1'
+  kills: '&aMatou'
+  deaths: '&4Morreu'
+  kdr: '&bKDR'
+  killstreak: '&eKillStreak'
+#1v1
+1v1Slots: 9
+1v1Title: '&2&lSelecione o Kit'
+Cooldown1v1: 5
+EnableCustom: true  
+Item:
+  id: 369
+  title: '&6Desafiador'
+  lore:
+    - '&7Clique em um player para desafia-lo'
+    - '&7para uma batalha 1v1.'
+Custom:
+  id: 323
+  title: '&b&lCustomizado'
+  lore:
+    - '&aCustomize o 1v1.'
+  slot: 8
+  invTitle: '&3&lSelecione as opcoes'
+  ItemRedor:
+    id: 102
+    title: '&9Ultra1v1'
+SemPermissao: '&e[&9Ultra1V1&e] &cVoce nao tem permissao.'
+SpawnSetado: '&e[&9Ultra1V1&e] &aSpawn definido com sucesso.'
+Pos1Setada: '&e[&9Ultra1V1&e] &fPos1 &adefinida com sucesso.'
+Pos2Setada: '&e[&9Ultra1V1&e] &fPos2 &adefinida com sucesso.'
+SaidaSetada: '&e[&9Ultra1V1&e] &aSaida definida com sucesso.'
+Entrou: '&e[&9Ultra1V1&e] &aVoce entrou no 1v1.'
+Saiu: '&e[&9Ultra1V1&e] &cVoce saiu do 1v1.'
+ConfigReload: '&e[&9Ultra1V1&e] &aConfiguracao Recarregada.'
+ItemsRestaurados: '&e[&9Ultra1V1&e] &aSeus items foram restaurados.'
+SemDesafiante: '&e[&9Ultra1V1&e] &cVoce nao tem um desafiante.'
+NaoOnline: '&e[&9Ultra1V1&e] &cEste player nao esta online.'
+ErroConfig: '&e[&9Ultra1V1&e] &cErro de Configuracao. Contate um Admin.' 
+Iniciando: '&eIniciando em:&f @tempo'
+Valendo: '&bValendo!'
+
+Desafiou:
+  - ' '
+  - '&aVoce desafiou o player:&f @desafiado'
+  - '&aKit:&f @kit'
+  - '&aAguarde ele aceitar o desafio...'
+  - ' '
+Convite:
+  - ' '
+  - '&6Voce foi desafiado por:&f @desafiante'
+  - '&6Kit:&f @kit'
+  - '&6Clique nele para aceitar o desafio...'
+  - ' '
+Vitoria:
+  - ' '
+  - '&c@vencedor &avenceu a batalha contra &c@perdedor'
+  - '&aRestou com ele &c@sopas &asopas e sua vida'
+  - '&aficou em &c@coracoes &acoracoes'
+  - ' '
+CustomDesafiou:
+  - ' '
+  - '&aVoce desafiou o player:&f @desafiado &apara uma batalha customizada.'
+  - '&aEspada:&f @espada'
+  - '&aArmadura:&f @armadura'
+  - '&aSopas: &f@sopa'
+  - '&aAguarde ele aceitar o desafio...'
+  - ' '
+CustomConvite:
+  - ' '
+  - '&6Voce foi desafiado por:&f @desafiante &6para uma batalha customizada.'
+  - '&6Espada:&f @espada'
+  - '&6Armadura:&f @armadura'
+  - '&6Sopas: &f@sopa'
+  - '&6Clique nele para aceitar o desafio...'
+  - ' '
+UsoAdmin:
+  - '&e======= Mega1v1 para Admin ======='
+  - '&9/1v1 set &c<spawn,pos1,pos2,saida>'
+  - '&9/1v1 reload'
+  - '&e=================================='
+#Armaduras dos kits
+PvP:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Archer:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Urgal:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Shooter:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Pyro:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Trocador:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+  change_helmet: 310
+  change_chestplate: 311
+  change_leggings: 312
+  change_boots: 313
+Soldado:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+  required_sword: 276
+Viper:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Ninja:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Anchor:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Tank:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Switcher:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Darkmage:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Vitality:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Teleporter:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Thor:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Specialist:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Launcher:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Milkman:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Skeleton:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Fisherman:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Phantom:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Gladiator:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Flash:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Grappler:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Endermage:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Monk:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Camel:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Frosty:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Wither:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Poseidon:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Stomper:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Reaper:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Turtle:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Jumper:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+HG:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Snail:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Rhino:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Fireman:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Kangaroo:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Viking:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+  axe: 275
+Madman:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Grandpa:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Ghost:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+QuickDropper:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Teleporter:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+SpiderMan:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Barbarian:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Berserker:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Indio:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Granadier:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Ryu:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Neji:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Lobisomem:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Alien:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Hulk:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []
+Critical:
+  helmet:
+    type: 306
+    enchants: []
+  chestplate:
+    type: 307
+    enchants: []
+  leggings:
+    type: 308
+    enchants: []
+  boots:
+    type: 309
+    enchants: []
+  sword:
+    type: 276
+    enchants: []

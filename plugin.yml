@@ -1,0 +1,42 @@
+name: UltraKits
+main: UltraKits.Main
+authors: [CleanlyGold, zDubsCrazy]
+depends: [WorldGuard, BarAPI]
+version: 1.0.0
+commands:
+    kit:
+    1v1:
+    spawn:
+    setspawn:
+    morrer:
+    gm:
+    admin:
+    v:
+    skit:
+    report:
+    tell:
+    build:
+    invsee:
+    warp:
+    fly:
+    tpall:
+    head:
+    setwarp:
+    delwarp:
+    build:
+    cor:
+    mute:
+    desmute:
+    togglepvp:
+    witem:
+    cc:
+    kits:
+    wclear:
+    wcmd:
+    ac:
+    kick:
+    sair:
+    fps:
+    sky:
+    lc:
+    evento:
